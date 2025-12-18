@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+main{
+    width: 80%;
+    /* height: 100vh; */
+    /* background-color: aquamarine; */
+    margin-top: 11px;
+    /* padding: 11px; */
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f3ecec;
+    padding: 17px;
+    border-bottom: 1px  solid#e1b4ff;
+
+
+}.center ul{
+    display: flex;
+    list-style: none;
+
+}
+.center ul li a{
+    padding: 17px;
+    text-decoration: none;
+}
+.right form{
+    display: flex;
+    gap: 5px;
+}
+input[type="search"]
+{
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    /* background-color: pink; */
+    flex-direction: column;
+    align-items: center;
+}
+.row{
+    width: 100%;
+    display: flex;
+    height: 33.33%;
+    /* background: black; */
+    
+    gap: 5px;
+}
+.row .card{
+    width: 25%;
+    background-color: rgb(185, 220, 251);
+
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent !important;
+    border: 1px solid#ccc;
+}
+.top{
+    width: 100%;
+    /* background-color: rgb(134, 114, 154) */
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 7px;
+    text-align: center;
+
+}
+.content{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 11px;
+    padding: 7px;
+    
+
+}
+
+
+.footer {
+    width: 100%;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 7px;
+    font-size: 11px;
+    border-top: 1px solid #ccc;
+    margin-top: 10px; 
+}
+.row-2{
+    margin-top: 11px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 232, 232);
+    padding: 17px;
+    box-shadow: 3px 9px 17px -2px rgba(0,0,0,0.82);
+-webkit-box-shadow: 3px 9px 17px -2px rgba(0,0,0,0.82);
+-moz-box-shadow: 3px 9px 17px -2px rgba(0,0,0,0.82);
+}
+.box{
+    width: 80%;
+}
+
